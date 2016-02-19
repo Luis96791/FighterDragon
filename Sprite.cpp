@@ -10,7 +10,7 @@ Sprite::Sprite(SDL_Renderer* renderer, string path, int frames,int align_x,int a
     rect.h=h;
     rect.x=align_x;
     rect.y=align_y;
-    this->frames = frames;
+    this->frames = 500;
 }
 
 Sprite::~Sprite()

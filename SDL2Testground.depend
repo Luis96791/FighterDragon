@@ -602,3 +602,51 @@
 1455294912 source:/home/turupawn/Clases/Progra3DragonFighter/Sprite.cpp
 	"Sprite.h"
 
+1455827020 source:/home/luis/FigtherDragon4/Character.cpp
+	"Character.h"
+
+1455825059 /home/luis/FigtherDragon4/Character.h
+	<iostream>
+	<map>
+	<fstream>
+	"Move.h"
+
+1455823203 /home/luis/FigtherDragon4/Move.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+
+1455728146 /home/luis/FigtherDragon4/Sprite.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<vector>
+	"Hitbox.h"
+
+1455728146 /home/luis/FigtherDragon4/Hitbox.h
+
+1455728146 source:/home/luis/FigtherDragon4/Hitbox.cpp
+	"Hitbox.h"
+
+1455728146 source:/home/luis/FigtherDragon4/main.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	"Character.h"
+
+1455827078 source:/home/luis/FigtherDragon4/Move.cpp
+	"Move.h"
+
+1455826511 source:/home/luis/FigtherDragon4/Sprite.cpp
+	"Sprite.h"
+
+1455824314 source:/home/luis/FigtherDragon4/Character1.cpp
+	"Character1.h"
+
+1455823548 /home/luis/FigtherDragon4/Character1.h
+	<map>
+	<fstream>
+	"Move.h"
+

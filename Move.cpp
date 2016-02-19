@@ -8,7 +8,7 @@ Move::Move(SDL_Renderer* renderer,vector<Sprite*>sprites,vector<string>cancels)
         this->sprites.push_back(sprites[i]);
     }
     frame=0;
-    current_sprite_frame=0;
+    current_sprite_frame=1;
     this->cancels = cancels;
 }
 
@@ -21,7 +21,7 @@ void Move::draw(int current_sprite,int character_x, int character_y)
 {
     Sprite* sprite = sprites[current_sprite];
     sprite->draw(character_x,character_y);
-    frame++;
+    frame+=100;
 }
 
 bool Move::canCancel(string move_name)
